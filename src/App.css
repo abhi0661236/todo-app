@@ -1,7 +1,32 @@
 .App {
-  text-align: center;
+  width: 280px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  margin-left: -140px;
+  margin-top: -225px;
+  background-color: #f9f9f9;
+  box-shadow: 10px 10px 15px #e7e7e7;
 }
 
+h1{
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 1.5rem;
+}
+hr{
+  
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 1.5rem;
+  
+}
+.todos-container li{
+  list-style-type: none;
+  margin: 5px auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +60,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* my css rules for the app */
+.add-form{
+  margin: 10px auto;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  left: 22px;
+}
+
+.add-input{
+  color: #61dafb;
+  outline: none;
+  padding: 4px;
+  width: 65%;
+}
+.submit-btn{
+  padding: 6px;
+  border: none;
+  background-color: #00b700;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+}    
+
+.todos-container{
+  overflow-y: auto;
+  height: 305px;
 }
