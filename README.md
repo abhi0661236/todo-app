@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # See it in action here
-https://vercel.com/abhi0661236/todo-app
+https://todo-app-ivory-psi.vercel.app/
 
 ## Available Scripts
 
