@@ -9,7 +9,7 @@ function App() {
     { id: 3, text: "Take shower", done: false }
   ]);
 
-  
+  alert("Hi, doubleclick on todos to toggle them as done/undone. Click on the cross btn to delete the todo item.");
 
   return (
     <div className="App">
